@@ -6,7 +6,7 @@ Time_Stamp=$(date +"%Y%m%d_%H%M%S")
 File_Name="system_report_${Time_Stamp}.txt"
 final_path="${path}/${File_Name}"
 
-
+{
     echo "Welcome user"
     echo "The current user is $(whoami)"
     echo "The current hostname is $(hostname)"
